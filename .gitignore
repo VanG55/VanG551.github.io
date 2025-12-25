@@ -1,0 +1,10 @@
+node_modules/
+docs/.vitepress/dist/
+dist/
+.DS_Store
+.env
+.idea/
+.vscode/
+public/sitemap.xml
+.cache/
+

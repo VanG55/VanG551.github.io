@@ -1,0 +1,15 @@
+{
+  "name": "vitepress-docs",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress preview docs/.vitepress/dist",
+    "sitemap": "node ./scripts/generate-sitemap.cjs"
+  }
+}
