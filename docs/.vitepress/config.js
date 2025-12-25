@@ -12,8 +12,8 @@ export default defineConfig({
     ['meta', { property: 'og:description', content: 'Инструкции по подключению VPN, настройке клиентов и управлению подписками через Telegram-бот.' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    // favicon (served from site root)
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    // favicon (served from site root or /images/)
+    ['link', { rel: 'icon', href: '/images/favicon.ico' }],
     // JSON-LD Organization
     ['script', { type: 'application/ld+json' }, JSON.stringify({
       "@context": "https://schema.org",
